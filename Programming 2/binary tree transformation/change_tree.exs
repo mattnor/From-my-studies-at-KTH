@@ -2,7 +2,10 @@
 #2021-03
 
 #The program takes a binary tree where each node has a value, then transforms
-#this tree such that each parent's value will be the product of its two children.
+#this tree such that each parent's value will be the product of its two children's
+#values (starting at the bottom of the tree going up i.e. a parent's node can have 
+#its children's values changed if they in turn have children of their own, which in turn
+#would affect the parent's new value).
 #In case a node only has one or no child/children, the node will keep its
 #value.
 
